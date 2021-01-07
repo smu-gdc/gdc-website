@@ -1,0 +1,24 @@
+.homeinfo-container {
+    background-color: #5e6493;
+    padding: 10rem;
+}
+
+.homeinfo-container h1 {
+    color: white;
+}
+
+.homeinfo-container p {
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .homeinfo-container {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homeinfo-container {
+        padding: 2rem;
+    }
+}
