@@ -1,5 +1,4 @@
-# Below is the README created by create-react-app. 
-## I'm leaving it here as future users of this repo may find this info useful.
+## Below is the README created by create-react-app. I'm leaving it here as future users of this repo may find this info useful.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
