@@ -3,6 +3,11 @@
     padding: 10rem;
 }
 
+.homeinfo-row {
+    padding-bottom: 15rem;
+    display: flex;
+}
+
 .homeinfo-container h1 {
     color: white;
 }
@@ -11,14 +16,40 @@
     color: white;
 }
 
+.homeinfo-img {
+    max-width: 35%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 1200px) {
+    
     .homeinfo-container {
         padding: 5rem;
+    }
+
+    .homeinfo-row {
+        display: block;
+        text-align: center;
+    }
+
+    .homeinfo-img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 }
 
 @media screen and (max-width: 700px) {
     .homeinfo-container {
         padding: 2rem;
+    }
+
+    .homeinfo-row {
+        display: block;
+        text-align: center;
+    }
+
+    .homeinfo-img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 }

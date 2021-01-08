@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HomeInfoGroup from './HomeInfoGroup'
 import './HomeInfo.css'
 
 class HomeInfo extends Component {
@@ -6,14 +7,37 @@ class HomeInfo extends Component {
     render() {
         return (
             <div className='homeinfo-container'>
-                <div className='col-sm-1 d-flex align-items-center'>
-                    <img className='img-fluid' src='https://via.placeholder.com/150'></img>
+                <div className='homeinfo-row align-items-center'>
+                    <img className='img-fluid homeinfo-img text-center' src='img/GameJams.png'></img>
+                    <HomeInfoGroup
+                        header="This is a Test."
+                        text="Get your hands dirty and sharpen your designing skills: SMU GDC's first Game Jam is right around the corner. Register Now for SMU GDC's Inaugural Game Jam: TestJam! Coming soon."
+                        button='Register'
+                        url="#"
+                    />
                 </div>
-                <div className='col-sm-1 d-flex align-items-center subinfo-container'>
-                    <h1>A Header</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <div className='homeinfo-row align-items-center'>
+                    <HomeInfoGroup
+                        header="Let's Start Creating."
+                        text="Take advantage of our intuitive step-by-step roadmap to begin creating games in no time. Whether you're looking to build a 2D side-scrolling platformer or the next ambitious open-world adventure, we offer the resources necessary to get your started."
+                        button='Start Here'
+                        url="#"
+                    />
+
+                    <img className='img-fluid homeinfo-img text-center' src='img/Gears.png'></img>
                 </div>
-            </div> 
+
+                <div className='homeinfo-row align-items-center'>
+                    <img className='img-fluid homeinfo-img text-center' src='img/GameJams.png'></img>
+                    <HomeInfoGroup
+                        header="Join Our Discord!"
+                        text="Now is your opportunity to join a community of passionate Game Designers and Developers. Network with SMU Guildhall faculty, students, and mentors. Our virtual Game Jams are also hosted through the server."
+                        button='Join Now'
+                        url="#"
+                    />
+                </div>
+            </div>
         )
     }
 }

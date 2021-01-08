@@ -1,4 +1,6 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import Navbar from "./components/Navbar/Navbar"
 import Slideshow from "./components/Slideshow/Slideshow"
 import Header from "./components/Header/Header"

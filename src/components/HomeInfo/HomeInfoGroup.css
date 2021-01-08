@@ -1,0 +1,104 @@
+.homeinfogroup-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.homeinfogroup-container h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.homeinfogroup-container p {
+    font-size: 32px;
+    padding: 2rem;
+    padding-left: 4rem;
+}
+
+.homeinfogroup-line {
+    display: block;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 2px;
+    color: black;
+    background-color: black;
+    border-width: 0;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .homeinfogroup-container h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .homeinfogroup-container p {
+        font-size: 26px;
+        padding: 1rem;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homeinfogroup-container h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .homeinfogroup-container p {
+        font-size: 20px;
+        padding: 0.5rem;
+        padding-left: 1rem;
+    }
+}
+
+/* Button Styling...may want to place this somewhere else later... */
+
+:root {
+    /*--primary: #3acbf7;*/
+
+}
+
+.mybtn {
+    padding: 8px 20px;
+    border: 1px;
+    border-color: #fff;
+    color: #fff;
+    border-style: solid;
+    outline: none;
+    cursor: pointer;
+}
+
+.mybtn:hover {
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #2e2f66;
+    transition: 250ms;
+}
+
+.mybtn--primary {
+    background-color: var(--primary);
+}
+
+.mybtn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4p;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.mybtn--medium {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.mybtn--large {
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #fff;
+}
