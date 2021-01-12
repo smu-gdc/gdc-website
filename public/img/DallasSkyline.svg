@@ -67,9 +67,9 @@
      id="namedview4520"
      showgrid="false"
      showguides="false"
-     inkscape:zoom="1.5927536"
-     inkscape:cx="264.48213"
-     inkscape:cy="183.29198"
+     inkscape:zoom="2.2524937"
+     inkscape:cx="134.03621"
+     inkscape:cy="216.56947"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -114,5 +114,12 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ccccc" />
     </g>
+    <rect
+       style="opacity:1;fill:#5e6493;fill-opacity:1;stroke:none;stroke-width:11.33858299;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect826"
+       width="22.62948"
+       height="6.0460029"
+       x="241.20378"
+       y="19.826967" />
   </g>
 </svg>

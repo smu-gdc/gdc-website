@@ -12,7 +12,7 @@ class HomeInfo extends Component {
                     <HomeInfoGroup
                         header="This is a Test."
                         text="Get your hands dirty and sharpen your designing skills: SMU GDC's first Game Jam is right around the corner. Register Now for SMU GDC's Inaugural Game Jam: TestJam! Coming soon."
-                        button='Register'
+                        button='Learn More'
                         url="#"
                     />
                 </div>
@@ -29,12 +29,12 @@ class HomeInfo extends Component {
                 </div>
 
                 <div className='homeinfo-row align-items-center'>
-                    <img className='img-fluid homeinfo-img text-center' src='img/GameJams.png'></img>
+                    <i className="fab fa-discord img-fluid homeinfo-discord text-center"></i>
                     <HomeInfoGroup
                         header="Join Our Discord!"
                         text="Now is your opportunity to join a community of passionate Game Designers and Developers. Network with SMU Guildhall faculty, students, and mentors. Our virtual Game Jams are also hosted through the server."
                         button='Join Now'
-                        url="#"
+                        url="https://discord.gg/GmMuWXP5VA"
                     />
                 </div>
             </div>

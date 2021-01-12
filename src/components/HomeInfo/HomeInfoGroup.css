@@ -26,6 +26,15 @@
     border-width: 0;
 }
 
+.homeinfogroup-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.homeinfogroup-container a:hover {
+    color: #848ab5;
+}
+
 @media screen and (max-width: 1200px) {
 
     .homeinfogroup-container h1 {

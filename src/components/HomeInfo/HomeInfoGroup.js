@@ -10,7 +10,11 @@ class HomeInfoGroup extends Component {
                 <div className='d-flex justify-content-center row'>
                     <p>{this.props.text}</p>
                     <hr></hr>
-                    <button className='btn mybtn--large mybtn'>{this.props.button}</button>
+                    <button className='btn mybtn--large mybtn'>
+                        <a href={this.props.url}>
+                            {this.props.button}
+                        </a>
+                    </button>
                 </div>
             </div>
         )
