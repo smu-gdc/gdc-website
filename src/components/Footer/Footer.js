@@ -9,15 +9,15 @@ class Footer extends Component {
                 <div className='footer-container'>
                     <div className='footer-contact'>
                         <p>Contact Us:</p>
-                        <i className="fas fa-envelope"></i>
+                        <a href='mailto:gdc.smu@gmail.com'><i className="fas fa-envelope"></i></a>
                     </div>
                     <div className='footer-socials'>
-                        <i class="fab fa-itch-io"></i>
-                        <i class="fab fa-discord"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
+                        <a href='#'><i class="fab fa-itch-io"></i></a>
+                        <a href='#'><i class="fab fa-discord"></i></a>
+                        <a href='#'><i class="fab fa-instagram"></i></a>
+                        <a href='#'><i class="fab fa-linkedin-in"></i></a>
+                        <a href='#'><i class="fab fa-facebook-f"></i></a>
+                        <a href='#'><i class="fab fa-twitter"></i></a>
                     </div>
                 </div> 
                 <div className='copyright'>

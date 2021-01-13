@@ -9,6 +9,15 @@
     margin-bottom: 2px;
 }
 
+.footer-container a {
+    color: white;
+    transition: ease-in 0.1s;
+}
+
+.footer-container a:hover {
+    color: #BBBBBB;
+}
+
 .footer-contact {
     justify-self: start;
     display: grid;

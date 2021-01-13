@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '#',
+        url: '/',
         cName: 'nav-links' // className
     },
     {
@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title: 'Calendar',
-        url: '#',
+        url: '/calendar',
         cName: 'nav-links' // className
     },
     {
@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: 'Contact Us',
-        url: '#',
+        url: 'mailto:gdc.smu@gmail.com',
         cName: 'nav-links' // className
     }
 ]
