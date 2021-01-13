@@ -5,7 +5,7 @@ Welcome to the SMU GDC Website GitHub repository. This is a private repository a
 ## Instructions for Cloning:
 
 
-**Prerequisite:** Make sure you have Node.js/yarn installed. If not, you can install it **[here.](https://classic.yarnpkg.com/en/docs/install/#windows-stable)**
+**Prerequisite:** Make sure you have Node.js/yarn installed. If not, you can install both **[here.](https://classic.yarnpkg.com/en/docs/install/#windows-stable)**
 
 
 
