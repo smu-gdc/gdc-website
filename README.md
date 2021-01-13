@@ -5,7 +5,7 @@ Welcome to the SMU GDC Website GitHub repository. This is a private repository a
 ## Instructions for Cloning:
 
 
-**Prerequisite:** Make sure you have yarn installed. If not, you can install it **[here.](https://classic.yarnpkg.com/en/docs/install/#windows-stable)**
+**Prerequisite:** Make sure you have Node.js/yarn installed. If not, you can install it **[here.](https://classic.yarnpkg.com/en/docs/install/#windows-stable)**
 
 
 
@@ -13,7 +13,8 @@ Open up a command prompt (Windows Powershell or equivalent) and run each command
 
 1.      git clone https://github.com/smu-gdc/gdc-website
 2.      cd gdc-website
-3.      yarn start
+3.      yarn install
+4.      yarn start
 
 The website should be visible on [localhost:3000](http://localhost:3000). From there, you can edit the code and see changes immediately reflected in the browser.
 
