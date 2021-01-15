@@ -1,5 +1,5 @@
 .gamejaminfo-container {
-    background-color: #042805;
+    background-color: #004900;
     padding: 10rem;
 }
 
@@ -47,7 +47,7 @@
     .gamejaminfo-discord {
         font-size: 17rem;
         margin: 0 auto;
-        color: #848ab5;
+        color: #84b584;
     }
 }
 
@@ -69,6 +69,6 @@
     .gamejaminfo-discord {
         font-size: 10rem;
         margin: 0 auto;
-        color: #848ab5;
+        color: #84b584;
     }
 }

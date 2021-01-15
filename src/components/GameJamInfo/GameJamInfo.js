@@ -8,7 +8,7 @@ class GameJamInfo extends Component {
         return (
             <div className='gamejaminfo-container'>
                 <div className='gamejaminfo-row align-items-center'>
-                    <img className='img-fluid gamejaminfo-img text-center' src='img/GameJams.png'></img>
+                    <img className='img-fluid gamejaminfo-img text-center' src='img/Tools.png'></img>
                     <div className='gamejaminfogroup-container'>
                         <h1>This is a Test.</h1>
                         <div className='d-flex justify-content-center row'>
@@ -38,7 +38,7 @@ class GameJamInfo extends Component {
                         url="#"
                     />
 
-                    <img className='img-fluid gamejaminfo-img text-center' src='img/Gears.png'></img>
+                    <img className='img-fluid gamejaminfo-img text-center' src='img/Checklist.png'></img>
                 </div>
 
                 <div className='gamejaminfo-row align-items-center'>

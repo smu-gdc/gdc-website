@@ -29,6 +29,7 @@ function App() {
           <Route path="/calendar">
             <Navbar color='#24254f' hover='#454797'></Navbar>
             <Calendar></Calendar>
+            <Footer color='#24254f'></Footer>
           </Route>
 
           <Route path="/gamejams">
@@ -39,6 +40,7 @@ function App() {
               img='svg/TestJamHeader.svg'>
             </Header>
             <GameJamInfo></GameJamInfo>
+            <Footer color='#042805'></Footer>
           </Route>
 
           <Route path="/">
@@ -49,10 +51,9 @@ function App() {
               img='svg/DallasSkyline.svg'>
             </Header>
             <HomeInfo></HomeInfo>
+            <Footer color='#24254f'></Footer>
           </Route>
         </Switch>
-
-        <Footer></Footer>
 
       </Router>
     </div>
