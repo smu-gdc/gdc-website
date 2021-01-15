@@ -6,7 +6,7 @@ export const MenuItems = [
     },
     {
         title: 'GameJams',
-        url: '#',
+        url: '/gamejams',
         cName: 'nav-links' // className
     },
     {

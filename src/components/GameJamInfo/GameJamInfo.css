@@ -1,0 +1,74 @@
+.gamejaminfo-container {
+    background-color: #042805;
+    padding: 10rem;
+}
+
+.gamejaminfo-row {
+    padding-bottom: 15rem;
+    display: flex;
+}
+
+.gamejaminfo-container h1 {
+    color: white;
+}
+
+.gamejaminfo-container p {
+    color: white;
+}
+
+.gamejaminfo-img {
+    max-width: 35%;
+    margin: 0 auto;
+    color: #84b584;
+}
+
+.gamejaminfo-discord {
+    font-size: 25rem;
+    margin: 0 auto;
+    color: #84b584;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .gamejaminfo-container {
+        padding: 5rem;
+    }
+
+    .gamejaminfo-row {
+        display: block;
+        text-align: center;
+    }
+
+    .gamejaminfo-img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .gamejaminfo-discord {
+        font-size: 17rem;
+        margin: 0 auto;
+        color: #848ab5;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gamejaminfo-container {
+        padding: 2rem;
+    }
+
+    .gamejaminfo-row {
+        display: block;
+        text-align: center;
+    }
+
+    .gamejaminfo-img {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .gamejaminfo-discord {
+        font-size: 10rem;
+        margin: 0 auto;
+        color: #848ab5;
+    }
+}

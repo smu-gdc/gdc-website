@@ -6,9 +6,9 @@ class Header extends Component {
     render() {
         return (
             <div className='header-container'>
-                <h1 className='header-text'>We are SMU's Flagship Organization for Game Design and Development.</h1>
+                <h1 className='header-text'>{this.props.text}</h1>
                 <hr className='header-line'></hr>
-                <img className='header-skyline' src='img/DallasSkyline.svg'></img>
+                <img className='header-img' src={this.props.img}></img>
             </div>
         )
     }

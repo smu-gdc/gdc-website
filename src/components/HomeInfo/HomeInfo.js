@@ -13,7 +13,7 @@ class HomeInfo extends Component {
                         header="This is a Test."
                         text="Get your hands dirty and sharpen your designing skills: SMU GDC's first Game Jam is right around the corner. Register Now for SMU GDC's Inaugural Game Jam: TestJam! Coming soon."
                         button='Learn More'
-                        url="#"
+                        url="/gamejams"
                     />
                 </div>
 
