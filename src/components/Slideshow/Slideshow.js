@@ -7,7 +7,7 @@ class Slideshow extends Component {
         return (
             <div className='img-container'>
                 <div>
-                    <img className='center-fit' src={"img/LaptopStock.jpg"} alt={"First Slide"}></img>
+                    <img className='center-fit' src={"img/smu.jpg"} alt={"First Slide"}></img>
                 </div>
             </div>
         )

@@ -11,7 +11,7 @@ class HomeInfo extends Component {
                     <img className='img-fluid homeinfo-img text-center' src='img/GameJams.png'></img>
                     <HomeInfoGroup
                         header="This is a Test."
-                        text="Get your hands dirty and sharpen your designing skills: SMU GDC's first Game Jam is right around the corner. Register Now for SMU GDC's Inaugural Game Jam: TestJam! Coming soon."
+                        text="Get your hands dirty and sharpen your designing skills: SMU GDC's first Game Jam is right around the corner. Register Now for SMU GDC's Inaugural Game Jam: TestJam! Coming February 21 - March 6, 2021."
                         button='Learn More'
                         url="/gamejams"
                     />
@@ -20,9 +20,9 @@ class HomeInfo extends Component {
                 <div className='homeinfo-row align-items-center'>
                     <HomeInfoGroup
                         header="Let's Start Creating."
-                        text="Take advantage of our intuitive step-by-step roadmap to begin creating games in no time. Whether you're looking to build a 2D side-scrolling platformer or the next ambitious open-world adventure, we offer the resources necessary to get your started."
+                        text="Take advantage of our intuitive step-by-step roadmap to begin creating games in no time. Whether you're looking to build a 2D side-scrolling platformer or the next ambitious open-world adventure, we offer the resources necessary to get you started."
                         button='Start Here'
-                        url="#"
+                        url="/resources"
                     />
 
                     <img className='img-fluid homeinfo-img text-center' src='img/Gears.png'></img>

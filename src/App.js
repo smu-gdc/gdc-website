@@ -33,14 +33,19 @@ function App() {
           </Route>
 
           <Route path="/gamejams">
-            <Navbar color='#042805' hover='#459745'></Navbar>
+            <Navbar color='#000000' hover='#333333'></Navbar>
             <StaticImage></StaticImage>
             <Header 
               text="TestJam: SMU GDC's Inaugural GameJam."
               img='svg/TestJamHeader.svg'>
             </Header>
             <GameJamInfo></GameJamInfo>
-            <Footer color='#042805'></Footer>
+            <Footer color='#000000'></Footer>
+          </Route>
+
+          <Route path="/resources">
+          <Navbar color='#24254f' hover='#454797'></Navbar>
+            <h3>Resources page is in progress. Check back soon for roadmaps, guides, and other helpful content!</h3>
           </Route>
 
           <Route path="/">

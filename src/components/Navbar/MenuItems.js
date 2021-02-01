@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title: 'Resources',
-        url: '#',
+        url: '/resources',
         cName: 'nav-links' // className
     },
     {

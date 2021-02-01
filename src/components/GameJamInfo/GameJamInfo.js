@@ -13,16 +13,16 @@ class GameJamInfo extends Component {
                         <h1>This is a Test.</h1>
                         <div className='d-flex justify-content-center row'>
                             <ul>
-                                <li>One week to craft and design your game.</li>
+                                <li>Two weeks to craft and design your game.</li>
                                 <li>Open to all skill levels - Everyone is welcome.</li>
-                                <li>No theme - Test everything. Go wild.</li>
                                 <li>Test with teammates - Up to 4.</li>
+                                <li>2 days per team member - Test everything. Go wild.</li>
                                 <li>Learn from SMU Guildhall students and staff.</li>
                                 <li>Expand your skillset with fellow TestJammers.</li>
                             </ul>
                             <hr></hr>
-                            <button className='btn mybtn--large mybtn'>
-                                <a href='#'>
+                            <button className='btn mybtn--large mybtn mt-auto'>
+                                <a href='https://itch.io/jam/gdc-testjam'>
                                     Register on itch.io
                                 </a>
                             </button>
@@ -32,9 +32,9 @@ class GameJamInfo extends Component {
 
                 <div className='gamejaminfo-row align-items-center'>
                     <GameJamInfoGroup
-                        header="Everything you need."
+                        header="COMING SOON: Everything you need."
                         text="First time registering for a GameJam and don't know where to start? Need to brush up on rules? Looking for a team? Our GameJam Guide has all the information you need to make the most of your experience at TestJam."
-                        button='Start Here'
+                        button='Coming Soon'
                         url="#"
                     />
 

@@ -1,5 +1,5 @@
 .homeinfo-container {
-    background-color: #5e6493;
+    background-color:#5e6493;
     padding: 10rem;
 }
 
@@ -25,7 +25,7 @@
 .homeinfo-discord {
     font-size: 25rem;
     margin: 0 auto;
-    color: #848ab5;
+    color: #9aaaff;;
 }
 
 @media screen and (max-width: 1200px) {
@@ -47,7 +47,7 @@
     .homeinfo-discord {
         font-size: 17rem;
         margin: 0 auto;
-        color: #848ab5;
+        color: #9aaaff;
     }
 }
 
@@ -69,6 +69,6 @@
     .homeinfo-discord {
         font-size: 10rem;
         margin: 0 auto;
-        color: #848ab5;
+        color: #9aaaff;
     }
 }

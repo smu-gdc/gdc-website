@@ -13,9 +13,8 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">
-                    GDC
-                </h1>
+                <img className="navbar-logo navbar-logo-img" src="img/GDC_logo-nobg.png"></img>
+                <h1 className="navbar-logo">GDC</h1>
                 
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -49,9 +48,15 @@ class Navbar extends Component {
                     .navbar-logo {
                         color: #ffffff;
                         justify-self: start;
-                        margin-left: 10px;
+                        margin-left: 0px;
                         margin-top: 8px;
+                        width: 4%;
+                        z-index: 3;
                         cursor: pointer;
+                    }
+
+                    .navbar-logo-img {
+                        margin-top: 4px;
                     }
                     
                     .fa-react {
@@ -111,7 +116,7 @@ class Navbar extends Component {
                         }
                     
                         .nav-menu.active {
-                            background: #24254f;
+                            background: ${this.props.color};
                             left: 0;
                             opacity: 1;
                             transition: all 0.5s ease;
@@ -126,7 +131,7 @@ class Navbar extends Component {
                         }
                     
                         .nav-links:hover {
-                            background-color: #454797;
+                            background-color: ${this.props.hover};
                             border-radius: 0;
                         }
                     

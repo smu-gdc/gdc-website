@@ -1,5 +1,5 @@
 .gamejaminfo-container {
-    background-color: #004900;
+    background-color: #152614;
     padding: 10rem;
 }
 
@@ -17,15 +17,15 @@
 }
 
 .gamejaminfo-img {
-    max-width: 35%;
+    max-width: 25%;
     margin: 0 auto;
-    color: #84b584;
+    color: #9aff9aff;
 }
 
 .gamejaminfo-discord {
     font-size: 25rem;
     margin: 0 auto;
-    color: #84b584;
+    color: #9aff9aff;
 }
 
 @media screen and (max-width: 1200px) {

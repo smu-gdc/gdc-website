@@ -7,7 +7,7 @@ class StaticImage extends Component {
         return (
             <div className='img-container'>
                 <div>
-                    <img className='center-fit' src={"img/TechStock-Green.png"} alt={"GameJam Image"}></img>
+                    <img className='center-fit' src={"svg/TestJamImage.svg"} alt={"GameJam Image"}></img>
                 </div>
             </div>
         )

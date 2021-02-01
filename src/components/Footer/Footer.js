@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <div className='footer-container'>
+                <footer className='footer-container'>
                     <div className='footer-contact'>
                         <p>Contact Us:</p>
                         <a href='mailto:gdc.smu@gmail.com'><i className="fas fa-envelope"></i></a>
@@ -18,7 +18,7 @@ class Footer extends Component {
                         <a href='#'><i class="fab fa-facebook-f"></i></a>
                         <a href='#'><i class="fab fa-twitter"></i></a>
                     </div>
-                </div> 
+                </footer> 
                 <div className='copyright'>
                     <i class="fas fa-copyright"></i>
                     <p> SMU GDC 2021</p>
