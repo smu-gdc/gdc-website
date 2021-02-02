@@ -32,10 +32,10 @@ class GameJamInfo extends Component {
 
                 <div className='gamejaminfo-row align-items-center'>
                     <GameJamInfoGroup
-                        header="COMING SOON: Everything you need."
-                        text="First time registering for a GameJam and don't know where to start? Need to brush up on rules? Looking for a team? Our GameJam Guide has all the information you need to make the most of your experience at TestJam."
-                        button='Coming Soon'
-                        url="#"
+                        header="Everything you need."
+                        text="First time registering for a GameJam and don't know where to start? Need to brush up on rules? Looking for a team? Our Resources page has all the information you need to make the most of your experience at TestJam."
+                        button='Learn More'
+                        url="/resources"
                     />
 
                     <img className='img-fluid gamejaminfo-img text-center' src='img/Checklist.png'></img>

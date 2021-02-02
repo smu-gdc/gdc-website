@@ -11,12 +11,12 @@ class Footer extends Component {
                         <a href='mailto:gdc.smu@gmail.com'><i className="fas fa-envelope"></i></a>
                     </div>
                     <div className='footer-socials'>
-                        <a href='#'><i class="fab fa-itch-io"></i></a>
-                        <a href='#'><i class="fab fa-discord"></i></a>
-                        <a href='#'><i class="fab fa-instagram"></i></a>
+                        <a href='https://smu-gdc.itch.io/'><i class="fab fa-itch-io"></i></a>
+                        <a href='https://discord.gg/GmMuWXP5VA'><i class="fab fa-discord"></i></a>
+                        <a href='https://www.instagram.com/smu.gdc/'><i class="fab fa-instagram"></i></a>
                         <a href='#'><i class="fab fa-linkedin-in"></i></a>
-                        <a href='#'><i class="fab fa-facebook-f"></i></a>
-                        <a href='#'><i class="fab fa-twitter"></i></a>
+                        <a href='https://www.facebook.com/SMU-Game-Development-Club-103899398373425'><i class="fab fa-facebook-f"></i></a>
+                        <a href='https://twitter.com/SmuGame'><i class="fab fa-twitter"></i></a>
                     </div>
                 </footer> 
                 <div className='copyright'>
